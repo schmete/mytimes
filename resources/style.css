@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14;
+  font-weight: bold;
+}
+header p {
+  color: MediumAquamarine;
+}
+span {
+  display: inline-block;
+}
