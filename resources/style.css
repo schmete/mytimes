@@ -3,10 +3,15 @@ header {
   font-family: Verdana;
   font-size: 14;
   font-weight: bold;
+  align-items: center;
 }
-header p {
+nav {
   color: MediumAquamarine;
+  padding-right: 40px;
 }
-span {
-  display: inline-block;
+.logo {
+  padding-left: 30px;
+}
+.logo span {
+  color: MediumAquamarine;
 }
