@@ -1,4 +1,4 @@
-/*v0.08*/
+/*v0.09*/
 header {
   display: flex;
   font-family: Verdana;
@@ -19,7 +19,7 @@ nav {
   padding-right: 40px;
 }
 nav span {
-  margin: 0 20;
+  margin: 0px 20px;
 }
 nav a {
   color: black;
