@@ -1,4 +1,4 @@
-/*v0.09*/
+/*v0.10*/
 header {
   display: flex;
   font-family: Verdana;
@@ -6,6 +6,8 @@ header {
   font-weight: bold;
   align-items: center;
   justify-content: space-between;
+  z-index: 20;
+  border-bottom: 1px solid black;
 }
 .logo {
   display: flex;
@@ -14,13 +16,29 @@ header {
 }
 .logo span {
   color: MediumAquamarine;
+  margin-left: 10px;
 }
 nav {
   padding-right: 40px;
 }
 nav span {
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 nav a {
   color: black;
+}
+.main {
+  
+}
+.main div {
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
 }
