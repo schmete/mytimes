@@ -4,14 +4,19 @@ header {
   font-size: 14;
   font-weight: bold;
   align-items: center;
-}
-nav {
-  color: MediumAquamarine;
-  padding-right: 40px;
+  justify-content: space-between;
 }
 .logo {
+  display: flex;
   padding-left: 30px;
+  align-items: center;
 }
 .logo span {
   color: MediumAquamarine;
+}
+nav {
+  padding-right: 40px;
+}
+nav a {
+  color: black;
 }
