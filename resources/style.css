@@ -1,3 +1,4 @@
+/*v0.7*/
 header {
   display: flex;
   font-family: Verdana;
@@ -19,5 +20,5 @@ nav {
 }
 nav a {
   color: black;
-  padding: 0 20;
+  margin: 0 20;
 }
